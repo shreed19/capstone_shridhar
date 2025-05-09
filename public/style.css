@@ -1,0 +1,51 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.task {
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priority-low {
+  border-left: 5px solid #ffcc00;
+}
+
+.priority-medium {
+  border-left: 5px solid #ff8c00;
+}
+
+.priority-high {
+  border-left: 5px solid #ff0000;
+}
+
+button.delete-task {
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.delete-task:hover {
+  background-color: #d32f2f;
+}
