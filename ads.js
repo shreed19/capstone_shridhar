@@ -131,7 +131,7 @@ module.exports = {
     }
   ],
 
-  // Books & Reading
+  
   books: [
     {
       title: "Audible - Audiobooks",
@@ -175,7 +175,7 @@ module.exports = {
     }
   ],
 
-  // Study Tools & Resources
+  
   studyTools: [
     {
       title: "Wolfram Alpha - Computational Knowledge",
